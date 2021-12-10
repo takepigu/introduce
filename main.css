@@ -1,0 +1,252 @@
+@media screen and (min-width:481px) {
+html * {
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: #444444;
+}
+
+.top h1 {
+  background-color: #444444;
+}
+
+body {
+  background-color: #D3D3D3;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 31%;
+  cursor: pointer;
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: 20px;
+
+}
+
+nav {
+  display: none;
+  font-size: 35px;
+  border-bottom: 1px double black;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-family: serif;
+}
+
+nav.center {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-size: 40px;
+
+}
+
+nav a {
+  color: white;
+  background-color: #444444;
+}
+
+.tabs-section {
+  display: none;
+}
+
+.profile-imgbox {
+  float: left;
+  margin-left: 120px;
+  padding-top: 8px;
+}
+
+#tabs-about .card {
+  margin-top:8px;
+  margin-bottom: 8px;
+  margin-right: 200px;
+  float: right;
+}
+.card-body h4 {
+  border-bottom: double 6px #008080;
+}
+.card-body h6 {
+  background: linear-gradient(transparent 0, #FFFFBB 0);
+}
+.card-languages{
+  width:300px;
+  float:left;
+  margin-left:330px;
+}
+.card-header{
+  background-color:#777777;
+}
+.lang{
+  background-color:white;
+  padding-bottom:1px;
+}
+.card-tools{
+  float:right;
+  margin-left:100px;
+  width:360px;
+}
+
+.port-item {
+  padding-top: 50px;
+  margin-left: 100px;
+}
+.contact-image {
+  padding-left: 400px;
+  padding-top: 50px;
+}
+
+#tabs-contact h4 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  background: linear-gradient(transparent 0, #FFFF33 0);
+}
+
+.link {
+  text-align: center;
+
+}
+
+.twitter-image {
+  padding-right: 20px;
+}
+
+.insta-image {
+  padding-right: 20px;
+}
+
+footer {
+  display: none;
+}
+}
+@media screen and (max-width:480px) {
+html * {
+  box-sizing: border-box;
+}
+#tabs-about img{
+  display:none;
+}
+.contact-image{
+  display:none;
+}
+.top {
+  background-color: #444444;
+}
+
+.top h1 {
+  background-color: #444444;
+}
+
+body {
+  background-color: #D3D3D3;
+}
+
+h1 {
+  margin-top:280px;
+  text-align:center;
+  cursor: pointer;
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: 20px;
+
+}
+
+nav {
+  display: none;
+  font-size: 13px;
+  padding-right:5px;
+  border-bottom: 1px double black;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-family: serif;
+  width:100%;
+}
+
+nav.center {
+  position:absolute;
+  top:22%;
+  font-size: 50px;
+}
+
+nav a {
+  color: white;
+  background-color: #444444;
+}
+
+.tabs-section {
+  display: none;
+}
+#tabs-about .card {
+  padding-top:10px;
+  margin-top:10px;
+}
+.lang {
+  text-decoration:underline;
+}
+.card-body h4 {
+  border-bottom: double 6px #008080;
+}
+.card-body h6
+{
+  background: linear-gradient(transparent 0, #FFFFBB 0);
+}
+.card-languages{
+  margin-left:5px;
+  width:360px;
+}
+.card-header{
+  background-color:#777777;
+}
+.lang{
+  background-color:white;
+  padding:5px 0;
+}
+.card-tools{
+  width:360px;
+  margin-left:3px;
+}
+
+.port-item {
+  padding-top: 50px;
+}
+.port-list-item-imgbox{
+  display:none;
+}
+.port-list_item-name {
+  border-bottom: solid 3px #BB0000;
+}
+#tabs-contact h4 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 270px;
+  margin-bottom: 20px;
+  background: linear-gradient(transparent 0, #FFFF33 0);
+}
+
+.link {
+  text-align: center;
+
+}
+
+.twitter-image {
+  padding-right: 20px;
+}
+
+.insta-image {
+  padding-right: 20px;
+}
+  footer {
+    display:none;
+  }
+}
